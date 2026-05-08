@@ -1,0 +1,271 @@
+[
+  {
+    "id": "du",
+    "name": "University of Delhi",
+    "location": "New Delhi",
+    "state": "Delhi",
+    "type": "Central University",
+    "established": 1922,
+    "ranking": 12,
+    "rating": 4.2,
+    "courses": [
+      "B.A.",
+      "B.Sc.",
+      "B.Com",
+      "M.A.",
+      "M.Sc.",
+      "M.Com",
+      "Ph.D."
+    ],
+    "fees": {
+      "undergraduate": "₹15,000 - ₹25,000",
+      "postgraduate": "₹20,000 - ₹35,000"
+    },
+    "facilities": [
+      "Library",
+      "Hostels",
+      "Sports Complex",
+      "Medical Center",
+      "Wi-Fi Campus"
+    ],
+    "admissionProcess": "CUET (UG/PG)",
+    "cutoff": {
+      "general": 95,
+      "obc": 92,
+      "sc": 88,
+      "st": 85
+    },
+    "placement": {
+      "averagePackage": "₹6-8 LPA",
+      "topRecruiters": [
+        "TCS",
+        "Infosys",
+        "Deloitte",
+        "KPMG"
+      ]
+    }
+  },
+  {
+    "id": "jnu",
+    "name": "Jawaharlal Nehru University",
+    "location": "New Delhi",
+    "state": "Delhi",
+    "type": "Central University",
+    "established": 1969,
+    "ranking": 8,
+    "rating": 4.5,
+    "courses": [
+      "B.A.",
+      "M.A.",
+      "M.Phil.",
+      "Ph.D.",
+      "M.Sc.",
+      "M.Tech"
+    ],
+    "fees": {
+      "undergraduate": "₹5,000 - ₹15,000",
+      "postgraduate": "₹10,000 - ₹25,000"
+    },
+    "facilities": [
+      "Central Library",
+      "Hostels",
+      "Health Center",
+      "Sports Facilities",
+      "Computer Center"
+    ],
+    "admissionProcess": "JNUEE",
+    "cutoff": {
+      "general": 92,
+      "obc": 89,
+      "sc": 85,
+      "st": 82
+    },
+    "placement": {
+      "averagePackage": "₹7-10 LPA",
+      "topRecruiters": [
+        "Civil Services",
+        "Research Institutes",
+        "NGOs",
+        "Media Houses"
+      ]
+    }
+  },
+  {
+    "id": "bhu",
+    "name": "Banaras Hindu University",
+    "location": "Varanasi",
+    "state": "Uttar Pradesh",
+    "type": "Central University",
+    "established": 1916,
+    "ranking": 15,
+    "rating": 4.1,
+    "courses": [
+      "B.A.",
+      "B.Sc.",
+      "B.Tech",
+      "MBBS",
+      "M.A.",
+      "M.Sc.",
+      "M.Tech"
+    ],
+    "fees": {
+      "undergraduate": "₹8,000 - ₹20,000",
+      "postgraduate": "₹12,000 - ₹30,000"
+    },
+    "facilities": [
+      "Vishwanath Temple",
+      "Central Library",
+      "Hostels",
+      "Hospital",
+      "Sports Complex"
+    ],
+    "admissionProcess": "BHU UET/PET",
+    "cutoff": {
+      "general": 88,
+      "obc": 85,
+      "sc": 80,
+      "st": 75
+    },
+    "placement": {
+      "averagePackage": "₹5-8 LPA",
+      "topRecruiters": [
+        "TCS",
+        "Wipro",
+        "Government Sectors",
+        "Healthcare"
+      ]
+    }
+  },
+  {
+    "id": "jamia",
+    "name": "Jamia Millia Islamia",
+    "location": "New Delhi",
+    "state": "Delhi",
+    "type": "Central University",
+    "established": 1920,
+    "ranking": 18,
+    "rating": 4,
+    "courses": [
+      "B.A.",
+      "B.Tech",
+      "B.Arch",
+      "MBA",
+      "M.A.",
+      "M.Tech"
+    ],
+    "fees": {
+      "undergraduate": "₹10,000 - ₹25,000",
+      "postgraduate": "₹15,000 - ₹35,000"
+    },
+    "facilities": [
+      "Dr. A.P.J. Abdul Kalam Library",
+      "Hostels",
+      "Medical Center",
+      "Sports Complex"
+    ],
+    "admissionProcess": "JMI Entrance Test",
+    "cutoff": {
+      "general": 85,
+      "obc": 82,
+      "sc": 78,
+      "st": 75
+    },
+    "placement": {
+      "averagePackage": "₹6-9 LPA",
+      "topRecruiters": [
+        "Infosys",
+        "TCS",
+        "Media Companies",
+        "Government"
+      ]
+    }
+  },
+  {
+    "id": "presidency-kolkata",
+    "name": "Presidency University",
+    "location": "Kolkata",
+    "state": "West Bengal",
+    "type": "State University",
+    "established": 1817,
+    "ranking": 25,
+    "rating": 4.3,
+    "courses": [
+      "B.A.",
+      "B.Sc.",
+      "M.A.",
+      "M.Sc.",
+      "Ph.D."
+    ],
+    "fees": {
+      "undergraduate": "₹5,000 - ₹15,000",
+      "postgraduate": "₹8,000 - ₹20,000"
+    },
+    "facilities": [
+      "Heritage Library",
+      "Hostels",
+      "Laboratories",
+      "Auditorium"
+    ],
+    "admissionProcess": "Merit Based + Entrance",
+    "cutoff": {
+      "general": 90,
+      "obc": 87,
+      "sc": 83,
+      "st": 80
+    },
+    "placement": {
+      "averagePackage": "₹5-7 LPA",
+      "topRecruiters": [
+        "Research Institutes",
+        "Banks",
+        "Civil Services",
+        "Academia"
+      ]
+    }
+  },
+  {
+    "id": "loyola-chennai",
+    "name": "Loyola College",
+    "location": "Chennai",
+    "state": "Tamil Nadu",
+    "type": "Government College",
+    "established": 1925,
+    "ranking": 30,
+    "rating": 4.2,
+    "courses": [
+      "B.A.",
+      "B.Sc.",
+      "B.Com",
+      "M.A.",
+      "M.Sc.",
+      "M.Com"
+    ],
+    "fees": {
+      "undergraduate": "₹8,000 - ₹18,000",
+      "postgraduate": "₹12,000 - ₹25,000"
+    },
+    "facilities": [
+      "Library",
+      "Hostels",
+      "Sports Complex",
+      "Computer Labs",
+      "Chapel"
+    ],
+    "admissionProcess": "Merit Based",
+    "cutoff": {
+      "general": 87,
+      "obc": 84,
+      "sc": 80,
+      "st": 77
+    },
+    "placement": {
+      "averagePackage": "₹4-6 LPA",
+      "topRecruiters": [
+        "TCS",
+        "Cognizant",
+        "Banks",
+        "Government"
+      ]
+    }
+  }
+]

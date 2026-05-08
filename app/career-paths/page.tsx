@@ -28,124 +28,29 @@ interface CareerPath {
   relatedCareers: string[]
 }
 
-const careerPaths: CareerPath[] = [
-  {
-    id: "software-engineer",
-    title: "Software Engineer",
-    category: "Technology",
-    description: "Design, develop, and maintain software applications and systems",
-    duration: "4 years",
-    averageSalary: "₹8-15 LPA",
-    demandLevel: "High",
-    requiredEducation: ["B.Tech Computer Science", "B.Tech IT", "BCA", "MCA"],
-    keySkills: ["Programming", "Problem Solving", "Data Structures", "Algorithms", "Software Design"],
-    careerProgression: [
-      { level: "Entry", title: "Junior Developer", experience: "0-2 years", salary: "₹3-6 LPA" },
-      { level: "Mid", title: "Software Engineer", experience: "2-5 years", salary: "₹6-12 LPA" },
-      { level: "Senior", title: "Senior Engineer", experience: "5-8 years", salary: "₹12-20 LPA" },
-      { level: "Lead", title: "Tech Lead", experience: "8+ years", salary: "₹20-35 LPA" },
-    ],
-    relatedCareers: ["Data Scientist", "Product Manager", "DevOps Engineer"],
-  },
-  {
-    id: "doctor",
-    title: "Medical Doctor",
-    category: "Healthcare",
-    description: "Diagnose and treat patients, promote health and prevent disease",
-    duration: "5.5 years + internship",
-    averageSalary: "₹10-25 LPA",
-    demandLevel: "High",
-    requiredEducation: ["MBBS", "MD/MS (Specialization)"],
-    keySkills: ["Medical Knowledge", "Patient Care", "Communication", "Critical Thinking", "Empathy"],
-    careerProgression: [
-      { level: "Entry", title: "Junior Resident", experience: "0-3 years", salary: "₹5-8 LPA" },
-      { level: "Mid", title: "Senior Resident", experience: "3-6 years", salary: "₹8-15 LPA" },
-      { level: "Senior", title: "Consultant", experience: "6-10 years", salary: "₹15-30 LPA" },
-      { level: "Lead", title: "Senior Consultant", experience: "10+ years", salary: "₹30-50 LPA" },
-    ],
-    relatedCareers: ["Surgeon", "Pediatrician", "Cardiologist"],
-  },
-  {
-    id: "chartered-accountant",
-    title: "Chartered Accountant",
-    category: "Finance",
-    description: "Manage financial records, auditing, taxation, and business advisory",
-    duration: "3-5 years",
-    averageSalary: "₹6-12 LPA",
-    demandLevel: "High",
-    requiredEducation: ["CA Foundation", "CA Intermediate", "CA Final"],
-    keySkills: ["Accounting", "Taxation", "Auditing", "Financial Analysis", "Business Advisory"],
-    careerProgression: [
-      { level: "Entry", title: "Article Assistant", experience: "0-3 years", salary: "₹2-4 LPA" },
-      { level: "Mid", title: "CA Associate", experience: "3-6 years", salary: "₹6-10 LPA" },
-      { level: "Senior", title: "Senior CA", experience: "6-10 years", salary: "₹10-18 LPA" },
-      { level: "Lead", title: "Partner/CFO", experience: "10+ years", salary: "₹18-35 LPA" },
-    ],
-    relatedCareers: ["Financial Analyst", "Tax Consultant", "Investment Banker"],
-  },
-  {
-    id: "civil-engineer",
-    title: "Civil Engineer",
-    category: "Engineering",
-    description: "Design, build, and maintain infrastructure projects like roads, bridges, and buildings",
-    duration: "4 years",
-    averageSalary: "₹4-8 LPA",
-    demandLevel: "Medium",
-    requiredEducation: ["B.Tech Civil Engineering", "B.E. Civil Engineering"],
-    keySkills: ["Structural Design", "Project Management", "AutoCAD", "Construction Management", "Problem Solving"],
-    careerProgression: [
-      { level: "Entry", title: "Junior Engineer", experience: "0-2 years", salary: "₹2.5-4 LPA" },
-      { level: "Mid", title: "Site Engineer", experience: "2-5 years", salary: "₹4-7 LPA" },
-      { level: "Senior", title: "Project Manager", experience: "5-10 years", salary: "₹7-12 LPA" },
-      { level: "Lead", title: "Chief Engineer", experience: "10+ years", salary: "₹12-20 LPA" },
-    ],
-    relatedCareers: ["Architect", "Urban Planner", "Construction Manager"],
-  },
-  {
-    id: "teacher",
-    title: "Teacher/Educator",
-    category: "Education",
-    description: "Educate and inspire students, develop curriculum, and assess learning",
-    duration: "3-4 years",
-    averageSalary: "₹3-8 LPA",
-    demandLevel: "Medium",
-    requiredEducation: ["B.Ed", "Subject Graduation", "M.Ed (Optional)"],
-    keySkills: ["Communication", "Subject Expertise", "Classroom Management", "Patience", "Creativity"],
-    careerProgression: [
-      { level: "Entry", title: "Assistant Teacher", experience: "0-3 years", salary: "₹2-4 LPA" },
-      { level: "Mid", title: "Teacher", experience: "3-8 years", salary: "₹4-6 LPA" },
-      { level: "Senior", title: "Senior Teacher", experience: "8-15 years", salary: "₹6-10 LPA" },
-      { level: "Lead", title: "Principal/HoD", experience: "15+ years", salary: "₹10-15 LPA" },
-    ],
-    relatedCareers: ["Educational Counselor", "Curriculum Developer", "Academic Coordinator"],
-  },
-  {
-    id: "graphic-designer",
-    title: "Graphic Designer",
-    category: "Design",
-    description: "Create visual concepts and designs for digital and print media",
-    duration: "3-4 years",
-    averageSalary: "₹3-7 LPA",
-    demandLevel: "Medium",
-    requiredEducation: ["B.Des", "BFA", "Diploma in Graphic Design"],
-    keySkills: ["Adobe Creative Suite", "Typography", "Color Theory", "Creativity", "Visual Communication"],
-    careerProgression: [
-      { level: "Entry", title: "Junior Designer", experience: "0-2 years", salary: "₹2-4 LPA" },
-      { level: "Mid", title: "Graphic Designer", experience: "2-5 years", salary: "₹4-7 LPA" },
-      { level: "Senior", title: "Senior Designer", experience: "5-8 years", salary: "₹7-12 LPA" },
-      { level: "Lead", title: "Creative Director", experience: "8+ years", salary: "₹12-20 LPA" },
-    ],
-    relatedCareers: ["UI/UX Designer", "Brand Designer", "Art Director"],
-  },
-]
-
 const categories = ["All", "Technology", "Healthcare", "Finance", "Engineering", "Education", "Design"]
 
 export default function CareerPathsPage() {
+  const [careerPaths, setCareerPaths] = useState<CareerPath[]>([])
   const [searchTerm, setSearchTerm] = useState("")
   const [selectedCategory, setSelectedCategory] = useState("All")
-  const [filteredPaths, setFilteredPaths] = useState(careerPaths)
+  const [filteredPaths, setFilteredPaths] = useState<CareerPath[]>([])
   const [userRecommendations, setUserRecommendations] = useState<string[]>([])
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    fetch("http://localhost:8080/api/career-paths")
+      .then((res) => res.json())
+      .then((data) => {
+        setCareerPaths(data)
+        setFilteredPaths(data)
+        setLoading(false)
+      })
+      .catch((error) => {
+        console.error("Error fetching career paths:", error)
+        setLoading(false)
+      })
+  }, [])
 
   useEffect(() => {
     // Check for quiz results to show personalized recommendations

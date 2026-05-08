@@ -1,0 +1,186 @@
+[
+  {
+    "id": "pm-scholarship",
+    "name": "PM Scholarship Scheme",
+    "provider": "Government of India",
+    "amount": "₹2,500/month",
+    "type": "Merit-based",
+    "eligibility": [
+      "Class 12 passed with 85%+",
+      "Family income < ₹6 lakh",
+      "Indian citizen"
+    ],
+    "deadline": "2024-12-31",
+    "description": "Scholarship for meritorious students from economically weaker sections to pursue higher education.",
+    "applicationLink": "https://scholarships.gov.in",
+    "category": [
+      "Government",
+      "Higher Education"
+    ],
+    "requirements": [
+      "Income certificate",
+      "Mark sheets",
+      "Caste certificate (if applicable)"
+    ],
+    "benefits": [
+      "Monthly stipend",
+      "Fee reimbursement",
+      "Book allowance"
+    ],
+    "isGovernment": true
+  },
+  {
+    "id": "inspire-scholarship",
+    "name": "INSPIRE Scholarship",
+    "provider": "Department of Science & Technology",
+    "amount": "₹80,000/year",
+    "type": "Merit-based",
+    "eligibility": [
+      "Top 1% in Class 12",
+      "Pursuing Science stream",
+      "Age < 27 years"
+    ],
+    "deadline": "2024-11-15",
+    "description": "Scholarship to attract talented students to pursue science education and research.",
+    "applicationLink": "https://online-inspire.gov.in",
+    "category": [
+      "Science",
+      "Research",
+      "Government"
+    ],
+    "requirements": [
+      "Class 12 certificate",
+      "Admission proof",
+      "Bank details"
+    ],
+    "benefits": [
+      "Annual scholarship",
+      "Research opportunities",
+      "Mentorship"
+    ],
+    "isGovernment": true
+  },
+  {
+    "id": "minority-scholarship",
+    "name": "Pre-Matric Scholarship for Minorities",
+    "provider": "Ministry of Minority Affairs",
+    "amount": "₹1,000-₹5,700",
+    "type": "Category-specific",
+    "eligibility": [
+      "Minority community student",
+      "Class 1-10",
+      "Family income < ₹1 lakh"
+    ],
+    "deadline": "2024-10-30",
+    "description": "Financial assistance to students from minority communities for school education.",
+    "applicationLink": "https://scholarships.gov.in",
+    "category": [
+      "Minority",
+      "School Education",
+      "Government"
+    ],
+    "requirements": [
+      "Community certificate",
+      "Income certificate",
+      "School certificate"
+    ],
+    "benefits": [
+      "Tuition fee",
+      "Maintenance allowance",
+      "Book allowance"
+    ],
+    "isGovernment": true
+  },
+  {
+    "id": "sc-st-scholarship",
+    "name": "Post Matric Scholarship for SC/ST",
+    "provider": "Ministry of Social Justice",
+    "amount": "₹1,200-₹2,000/month",
+    "type": "Category-specific",
+    "eligibility": [
+      "SC/ST category",
+      "Class 11 onwards",
+      "Family income < ₹2.5 lakh"
+    ],
+    "deadline": "2024-12-15",
+    "description": "Scholarship for SC/ST students pursuing post-matriculation studies.",
+    "applicationLink": "https://scholarships.gov.in",
+    "category": [
+      "SC/ST",
+      "Higher Education",
+      "Government"
+    ],
+    "requirements": [
+      "Caste certificate",
+      "Income certificate",
+      "Admission proof"
+    ],
+    "benefits": [
+      "Monthly stipend",
+      "Fee reimbursement",
+      "Book allowance"
+    ],
+    "isGovernment": true
+  },
+  {
+    "id": "sports-scholarship",
+    "name": "National Sports Scholarship",
+    "provider": "Sports Authority of India",
+    "amount": "₹1,500/month",
+    "type": "Sports",
+    "eligibility": [
+      "State/National level player",
+      "Age 14-25 years",
+      "Regular training"
+    ],
+    "deadline": "2024-11-30",
+    "description": "Financial support for promising sports persons to excel in their respective sports.",
+    "applicationLink": "https://sai.gov.in",
+    "category": [
+      "Sports",
+      "Government"
+    ],
+    "requirements": [
+      "Sports certificates",
+      "Training proof",
+      "Medical certificate"
+    ],
+    "benefits": [
+      "Monthly allowance",
+      "Training support",
+      "Equipment allowance"
+    ],
+    "isGovernment": true
+  },
+  {
+    "id": "girl-child-scholarship",
+    "name": "Sukanya Samriddhi Scholarship",
+    "provider": "Ministry of Women & Child Development",
+    "amount": "₹3,000/year",
+    "type": "Category-specific",
+    "eligibility": [
+      "Girl child",
+      "Class 6-12",
+      "Regular attendance 75%+"
+    ],
+    "deadline": "2024-12-20",
+    "description": "Scholarship to promote education of girl children and reduce dropout rates.",
+    "applicationLink": "https://scholarships.gov.in",
+    "category": [
+      "Girl Child",
+      "School Education",
+      "Government"
+    ],
+    "requirements": [
+      "Birth certificate",
+      "School certificate",
+      "Attendance record"
+    ],
+    "benefits": [
+      "Annual scholarship",
+      "Educational support",
+      "Career guidance"
+    ],
+    "isGovernment": true
+  }
+]
