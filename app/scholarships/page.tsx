@@ -47,7 +47,7 @@ export default function ScholarshipsPage() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    fetch("http://localhost:8080/api/scholarships")
+    fetch(`${process.env.NEXT_PUBLIC_API_URL || "http://localhost:8080"}/api/scholarships`)
       .then((res) => res.json())
       .then((data) => {
         setScholarshipData(data)

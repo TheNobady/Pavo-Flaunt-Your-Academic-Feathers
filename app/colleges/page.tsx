@@ -56,7 +56,7 @@ export default function CollegesPage() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    fetch("http://localhost:8080/api/colleges")
+    fetch(`${process.env.NEXT_PUBLIC_API_URL || "http://localhost:8080"}/api/colleges`)
       .then((res) => res.json())
       .then((data) => {
         setColleges(data)

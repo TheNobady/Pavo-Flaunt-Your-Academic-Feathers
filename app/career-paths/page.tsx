@@ -39,7 +39,7 @@ export default function CareerPathsPage() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    fetch("http://localhost:8080/api/career-paths")
+    fetch(`${process.env.NEXT_PUBLIC_API_URL || "http://localhost:8080"}/api/career-paths`)
       .then((res) => res.json())
       .then((data) => {
         setCareerPaths(data)
