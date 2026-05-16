@@ -108,3 +108,5 @@ com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized f
 2026-05-08T18:04:48.503+05:30  INFO 45793 --- [pavo-backend] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2026-05-08T18:04:48.504+05:30  INFO 45793 --- [pavo-backend] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2026-05-08T18:04:48.506+05:30  INFO 45793 --- [pavo-backend] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-05-09T00:43:19.717+05:30  INFO 45793 --- [pavo-backend] [ionShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-09T00:43:19.730+05:30  INFO 45793 --- [pavo-backend] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
